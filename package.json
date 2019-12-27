@@ -1,0 +1,24 @@
+{
+  "name": "try-catch.macro",
+  "version": "0.0.1",
+  "description": "A Babel macro that removes console prints in production",
+  "main": "macro.js",
+  "scripts": {},
+  "repository": "https://github.com/JSupot/console.macro",
+  "keywords": [
+    "try-catch",
+    "babel",
+    "babel-plugin-macros"
+  ],
+  "author": "JSupot",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-macros": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4"
+  },
+  "peerDependencies": {
+    "babel-plugin-macros": "2.x"
+  }
+}
